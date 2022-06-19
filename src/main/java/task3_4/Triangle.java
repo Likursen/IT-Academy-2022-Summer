@@ -1,6 +1,6 @@
 package task3_4;
 
-public class Triangle extends Figure {
+public class Triangle extends Shape {
     public Triangle(int a, int b, int c) {
         setFirstParam(a);
         setSecondParam(b);

@@ -2,26 +2,28 @@ package task2;
 
 import java.util.Random;
 
-public class Task2Utils {
-    public static void fillingArray(int[] array) {
+class Utils {
+    public static int[] createRandomArray(int arraySize) {
         Random random = new Random();
-        for (int i = 0; i < array.length; i++) {
+        int[] array = new int[arraySize];
+        for (int i = 0; i < arraySize; i++) {
             array[i] = random.nextInt(-100, 100);
         }
+        return array;
     }
 
     public static void printArray(int[] array) {
-        System.out.println("Array");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+        System.out.println("Source array:");
+        for (int j : array) {
+            System.out.print(j + " ");
         }
         System.out.println();
     }
 
     public static void printPositiveOddNumberCount(int[] array) {
         int positiveOddNumberCount = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 != 0 && array[i] > 0)
+        for (int j : array) {
+            if (j % 2 != 0 && j > 0)
                 positiveOddNumberCount++;
         }
         System.out.println("Count of positive odd number: " + positiveOddNumberCount);

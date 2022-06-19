@@ -1,6 +1,6 @@
 package task3_4;
 
-public class Circle extends Figure {
+public class Circle extends Shape {
     public Circle(int a) {
         setFirstParam(a);
     }

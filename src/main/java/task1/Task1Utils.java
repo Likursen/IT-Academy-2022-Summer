@@ -9,11 +9,11 @@ public class Task1Utils {
         return scanner.nextInt();
     }
 
-    public static void addition(int FirstNumber, int SecondNumber) {
-        System.out.println(FirstNumber + "+" + SecondNumber + "=" + (FirstNumber + SecondNumber));
+    public static void addition(int firstNumber, int secondNumber) {
+        System.out.println(firstNumber + "+" + secondNumber + "=" + (firstNumber + secondNumber));
     }
 
-    public static void multiplication(int FirstNumber, int SecondNumber) {
-        System.out.println(FirstNumber + "+" + SecondNumber + "=" + (FirstNumber * SecondNumber));
+    public static void multiplication(int firstNumber, int secondNumber) {
+        System.out.println(firstNumber + "+" + secondNumber + "=" + (firstNumber * secondNumber));
     }
 }

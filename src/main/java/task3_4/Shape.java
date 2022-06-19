@@ -1,6 +1,6 @@
 package task3_4;
 
-public abstract class Figure implements Square, Perimeter {
+public abstract class Shape implements Square, Perimeter {
     private int firstParam;
     private int secondParam;
     private int thirdParam;
