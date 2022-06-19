@@ -9,7 +9,6 @@ public class Task1Utils {
         return scanner.nextInt();
     }
 
-
     public static void addition(int FirstNumber, int SecondNumber) {
         System.out.println(FirstNumber + "+" + SecondNumber + "=" + (FirstNumber + SecondNumber));
     }
