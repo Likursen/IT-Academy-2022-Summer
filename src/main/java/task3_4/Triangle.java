@@ -1,4 +1,4 @@
-package task3;
+package task3_4;
 
 public class Triangle extends Figure {
     public Triangle(int a, int b, int c) {

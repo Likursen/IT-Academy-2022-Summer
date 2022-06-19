@@ -1,4 +1,4 @@
-package task3;
+package task3_4;
 
 public abstract class Figure implements Square, Perimeter {
     private int firstParam;

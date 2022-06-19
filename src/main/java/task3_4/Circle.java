@@ -1,4 +1,4 @@
-package task3;
+package task3_4;
 
 public class Circle extends Figure {
     public Circle(int a) {
