@@ -1,6 +1,10 @@
-package task4;
+package task3and4;
 
 public class Triangle extends Shape {
+
+    static {
+        System.out.println("Enter the length of thee sides for the triangle");
+    }
 
     private int firstSide;
     private int secondSide;
@@ -14,7 +18,7 @@ public class Triangle extends Shape {
 
     @Override
     public void calculateAndPrintPerimeter() {
-        System.out.println("периметр треугольника " + getPerimeter());
+        System.out.println("Triangle perimeter " + getPerimeter());
     }
 
     private double getPerimeter() {
@@ -22,9 +26,9 @@ public class Triangle extends Shape {
     }
 
     @Override
-    public void calculateAndPrintSquare() {
+    public void calculateAndPrintArea() {
         double halfPerimeter = getPerimeter() / 2;
-        System.out.println("площадь треугольника " + Math.sqrt(halfPerimeter * (halfPerimeter - firstSide) *
+        System.out.println("Triangle area " + Math.sqrt(halfPerimeter * (halfPerimeter - firstSide) *
                 (halfPerimeter - secondSide) * (halfPerimeter - thirdSide)));
     }
 }

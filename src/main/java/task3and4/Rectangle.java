@@ -1,6 +1,11 @@
-package task4;
+package task3and4;
 
 public class Rectangle extends Shape {
+
+    static {
+        System.out.println("Enter the length and width for the rectangle");
+    }
+
     private int firstSide;
     private int secondSide;
 
@@ -11,11 +16,11 @@ public class Rectangle extends Shape {
 
     @Override
     public void calculateAndPrintPerimeter() {
-        System.out.println("периметр прямоугольника " + (firstSide + secondSide) * 2);
+        System.out.println("Rectangle perimeter " + (firstSide + secondSide) * 2);
     }
 
     @Override
-    public void calculateAndPrintSquare() {
-        System.out.println("площадь прмоугольника " + firstSide * secondSide);
+    public void calculateAndPrintArea() {
+        System.out.println("Rectangle area " + firstSide * secondSide);
     }
 }

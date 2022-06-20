@@ -3,8 +3,9 @@ package task1;
 import java.util.Scanner;
 
 class Utils {
+
     public static int scanNumber() {
-        System.out.println("введите число");
+        System.out.println("Enter number");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }

@@ -3,6 +3,7 @@ package task2;
 import java.util.Random;
 
 class Utils {
+
     public static int[] createRandomArray(int arraySize) {
         Random random = new Random();
         int[] array = new int[arraySize];
